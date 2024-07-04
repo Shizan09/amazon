@@ -1,0 +1,289 @@
+* {
+    margin: 0;
+}
+
+.menu {
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+.navlogo {
+    height: 50px;
+    width: 120px;
+}
+
+.logo {
+    background-image: url("amazon_logo.png");
+    background-size: cover;
+    height: 50px;
+    width: 100%;
+}
+
+.border {
+    border: 2px solid transparent;
+}
+
+.border:hover {
+    border: 2px solid white;
+}
+
+/** box2**/
+#firstone {
+    color: #cccccc;
+    font-size: 14px;
+    margin-left: 6px;
+}
+:hover#firstone{
+     color: #cccccc;
+}
+#secondone {
+    color: #ffffff;
+    font-size: 18px;
+    margin-left: 6px;
+}
+
+#search1 {
+    width: 600px;
+    height: 40px;
+    border-radius: 5px;
+    font-size: 20px;
+
+}
+
+#search1:hover {
+    border: 4px solid orange;
+}
+
+#firstone1 {
+    color: #cccccc;
+    font-size: 12px;
+}
+
+#secondone1 {
+    color: #ffffff;
+    font-size: 14px;
+}
+
+.secondline {
+    height: 40px;
+    background-color: #222f3d;
+    display: flex;
+    color: white;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.box2 {
+    width: 70%;
+    font-size: 17px;
+    display: flex;
+}
+
+#line1 {
+    margin-left: 18px;
+    border-radius: 2px;
+}
+
+#line1:hover {
+    border: 2px solid white;
+}
+
+.box3 {
+    font-size: px;
+    margin-left: 7px;
+    color: #cccccc;
+}
+
+.bodysec {
+    background-image: url(https://images-eu.ssl-images-amazon.com/images/G/31/img23/Beauty/GW/revised/final/Skincare-PCap._CB561353936_.jpg);
+    height: 400px;
+    background-size: cover;
+}
+
+.main-box {
+    display: flex;
+    background-color: lightblue;
+    padding-bottom: 49px;
+}
+
+.outer-box {
+    width: 21.5vw;
+    height: 48vh;
+    flex-direction: column;
+    justify-content: space-evenly;
+    margin-top: 9px;
+    margin-left: 40px;
+    background-color: #ffffff;
+}
+
+.img1 {
+    width: 19vw;
+    height: 29vh;
+    margin-left: 17px;
+    margin-right: 16px;
+    margin-top: 25px;
+}
+
+.text1 {
+    margin-left: 17px;
+    margin-top: 18px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#text11 {
+    margin-left: 17px;
+    margin-top: 11px;
+    font-size: 19px;
+    color: blue;
+}
+
+#text11:hover {
+    color: orangered;
+}
+
+.outer-box2 {
+    width: 25vw;
+    height: 48vh;
+    margin-left: 38px;
+    margin-top: 30px;
+    border: 3px solid black;
+}
+
+.img2 {
+    width: 19vw;
+    height: 29vh;
+    margin-left: 17px;
+    margin-right: 16px;
+    margin-top: 52px;
+}
+
+.main-box2 {
+    background-color: lightblue;
+    margin-top: -30px;
+}
+
+.middle_box {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.outer_box3 {
+    display: flex;
+    flex-direction: column;
+    width: 21.7svw;
+    height: 51vh;
+    background-color: #f8f1f1;
+    margin-left: 5vh;
+}
+
+.photo1 {
+    height: 13vh;
+    width: 10vw;
+    margin-left: 0.9vh;
+}
+
+.photo2 {
+    height: 13vh;
+    width: 9vw;
+    margin-left: 3vh;
+}
+
+.photo3 {
+    height: 13vh;
+    width: 10vw;
+    margin-left: 1.5vh;
+    margin-top: 2.5vh;
+}
+
+.photo4 {
+    height: 13vh;
+    width: 9vw;
+    margin-left: 2vh;
+    margin-top: 2.5vh;
+}
+
+#head {
+    font-size: 2.8vh;
+    margin-left: 1.4vh;
+    margin-bottom: 2vh;
+    margin-top: 2vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.text2 {
+    font-size: 1.5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1vh;
+    margin-bottom: 1.7vh;
+}
+
+.text3 {
+    font-size: 1.5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 3vh;
+    margin-bottom: 1vh;
+}
+
+.text4 {
+    font-size: 1.5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 1.5vh;
+    margin-bottom: 1vh;
+}
+
+.text5 {
+    font-size: 1.5vh;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left: 2vh;
+    margin-bottom: 1vh;
+}
+
+#text7 {
+    margin-left: 1.5vh;
+    margin-top: 2vh;
+    font-size: larger;
+    color: blue;
+}
+
+#text7:hover {
+    color: orangered;
+}
+
+.boxy {
+    display: flex;
+}
+
+.photo8 {
+    height: 13vh;
+    width: 9.9vw;
+    margin-left: 1.7vh;
+}
+
+.photo6 {
+    height: 13vh;
+    width: 9vw;
+    margin-left: 1vh;
+}
+
+#head1 {
+    font-size: 2.8vh;
+    margin-left: 1.4vh;
+    margin-bottom: 4.6vh;
+    margin-top: 2.5vh;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.photo14{
+    width: 19vw;
+    height: 32vh;
+    margin-left: 17px;
+    margin-right: 16px;
+    margin-top: 25px;
+    margin-bottom: 2.5vh;
+}
+
+
